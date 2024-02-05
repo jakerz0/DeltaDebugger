@@ -1,0 +1,39 @@
+--- files/file1v1.java	2023-11-03 20:35:55.247841300 -0500
++++ files/file1v2.java	2023-11-03 20:35:55.364913200 -0500
+@@ -4 +3,0 @@
+-        int x = 0;
+@@ -7,0 +7,3 @@
++        if (type.equals("multiplication")) {
++            return a * b;
++        }
+@@ -9 +11 @@
+-        int y;
++        int ax = 0;
+@@ -10,0 +13,2 @@
++            a++;
++            a--;
+@@ -13 +16,0 @@
+-
+@@ -15,2 +17,0 @@
+-            a--;
+-            a++;
+@@ -19 +20,4 @@
+-
++        int by = 0;
++        if (type.equals("addsquare")) {
++            return (a * a + b * b);
++        }
+@@ -21,0 +26,4 @@
++        if (type.equals("division")) {
++            return a / b;
++        }
++
+@@ -25 +32,0 @@
+-        int v = 0;
+@@ -27 +34,5 @@
+-        return 0;
++        if (type.equals("addsubsquare")) {
++            return (((a + b) * (a * b)) - ((a - b) * (a - b)));
++        }
++
++        return 1;

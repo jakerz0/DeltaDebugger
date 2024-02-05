@@ -1,0 +1,11 @@
+Authors: Jake Butler and Mario Pantaleo
+
+This tool was created using python and ran using wsl with jdk installed. It is a tool that isolates bugged changes between different versions of a file.
+
+To run the program, follow one of the following patterns:
+    python3 Debugger.py //Will run the default test case of division, 5, 0 on files/file1v1 and files/file1v2
+
+    python3 Debugger.py <file1> <file2> // Will run default test case of division, 5, 0 on given files
+
+    python3 Debugger.py <file1> <file2> <functionName> <params> // Will run given test case with given params on given files
+
